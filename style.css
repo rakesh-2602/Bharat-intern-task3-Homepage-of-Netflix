@@ -1,0 +1,406 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+#wrapper{
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.container{
+    background-color: black;
+}
+
+.section1{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)), url(./images/background.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 700px;
+}
+
+.navbar{
+    max-width: 1490px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar img{
+    width: 200px;
+    height: 80px;
+    margin: 20px 80px;
+}
+
+.select{
+    padding: 5px;
+    color: white;
+    margin-right: -125px;
+    font-size: 16px;
+    text-align: center;
+    background-color: black;
+    border: 2px solid var(white);
+}
+
+.navbar .button{
+    text-align: center;
+    padding-top: 7px;
+    width: 80px;
+    margin: 10px 120px;
+    border-radius: 7px;
+    color: white;
+    font-weight: lighter;
+    font-size: 17px;
+    height: 33px;
+    background-color: red;
+}
+
+.button:hover{
+    background-color: red;
+    transition-property: all;
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+
+.leftsidenavigation{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    align-items: center;
+}
+
+.sectionpart{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 260px;
+}
+
+#buttonget:hover{
+    background-color: red;
+    transition-property: all;
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+
+.sectionpart h1{
+    font-size: 48px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.sectionpart .emailrow .buttonget{
+    text-align: center;
+    padding-top: 10px;
+    width: 190px;
+    border-radius: 5px;
+    color: white;
+    font-size: 24px;
+    height: 50px;
+    background-color: red;
+}
+
+.emailrow{
+    display: flex;
+    justify-content: center;
+}
+
+#emailaddress{
+    color: white;
+    width: 380px;
+    margin-right: 8px;
+    padding-left: 13px;
+    font-size: 16px;
+    text-align: left;
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0, 0.568);
+    border:1px solid rgb(100, 102, 105);
+}
+
+.paragraph1{
+    font-size: 24px;
+    text-align: center;
+}
+.paragraph2{
+    font-size: 24px;
+    text-align: center;
+}
+
+.sectionbreaker{
+    width: 100%;
+    height: 12px;
+    border: 1px solid black;
+    background-color: #2e2d2d;
+}
+
+.section2{
+    height: 680px;
+    max-width: 1490px;
+    margin: 0 auto;
+    display: flex;
+    gap: 40px;
+}
+
+.leftsidediv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    width: 740px;
+    color: white;
+}
+
+.leftsidediv h2{
+    margin-bottom: 8px;
+    font-size: 48px;
+}
+
+.leftsidediv p{
+    font-size: 25px
+}
+
+.rightsidediv img{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.video1 video{
+    width: 705px;
+    height: 260px;
+}
+
+.video1{
+    position: relative;
+    bottom: 433px;
+    right: 34px;
+}
+ 
+.tvcrop1{
+    position: relative;
+    bottom: 550px;
+    left: 480px;
+}
+
+.section3{
+    height: 680px;
+    max-width: 1490px;
+    margin: 0 auto;
+    display: flex;
+    gap: 40px;
+}
+
+.rightsidediv2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    width: 740px;
+    color: white;
+}
+
+.rightsidediv2 h2{
+    margin-bottom: 8px;
+    font-size: 48px;
+}
+
+.rightsidediv2 p{
+    font-size: 24px
+}
+
+.leftsidediv2 img{
+    width: 400px;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+.section4{
+    height: 680px;
+    max-width: 1490px;
+    margin: 0 auto;
+    display: flex;
+    gap: 40px;
+}
+
+.leftsidediv3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    width: 740px;
+    color: white;
+}
+
+.leftsidediv3 h2{
+    margin-bottom: 8px;
+    font-size: 48px;
+}
+
+.leftsidediv3 p{
+    font-size: 24px
+}
+
+.rightsidediv3 img{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.video2 video{
+    width: 550px;
+    height: 222px;
+}
+
+.video2{
+    position: relative;
+    bottom: 505px;
+    left: 40px;
+}
+
+.tvcrop2{
+    position: relative;
+    bottom: 641px;
+   left: 433px;
+}
+
+.section5{
+    height: 680px;
+    max-width: 1490px;
+    margin: 0 auto;
+    display: flex;
+    gap: 10px;
+}
+
+.rightsidediv4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    width: 740px;
+    color: white;
+}
+
+.rightsidediv4 h2{
+    margin-bottom: 8px;
+    font-size: 48px;
+}
+
+.rightsidediv4 p{
+    font-size: 24px
+}
+
+.leftsidediv4{
+    position: relative;
+    top: 75px;
+}
+
+.FAQ{
+    width: 1300px;
+    margin: 0 auto;
+}
+.FAQ h1{
+    font-size: 50px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    color: #fff;
+    text-align: center;
+  }
+
+  details{
+    background-color: #303030;
+    color: #fff;
+    font-size: 1.5rem;
+    margin-top: 15px;
+  }
+
+  summary {
+    padding: .5em 1.3rem;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;  
+    transition: height 6s ease-out;
+  }
+
+  summary::-webkit-details-marker {
+    display: none;
+  }
+
+  summary:after{
+    content: "\002B";
+  }
+
+  details[open] summary {
+      border-bottom: 1px solid #aaa;
+      margin-bottom: .5em;
+  }
+
+  details[open] summary:after{
+    content: "\00D7";
+  }
+
+  details[open] div{
+    padding: .5em 1em;
+  }
+
+  .FAQPart{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 70px;
+    padding-bottom: 100px;
+}
+
+.FAQPart .emailrow .buttonget{
+    text-align: center;
+    padding-top: 10px;
+    width: 190px;
+    border-radius: 5px;
+    color: white;
+    font-size: 24px;
+    height: 50px;
+    background-color: #E50914;
+
+}
+
+
+.footer{
+    padding: 80px;
+    color: #aaa;
+    margin: 0 auto;
+    width: 1500px;
+    font-size: 0.9rem;
+
+}
+
+
+.footer p {
+  margin-bottom: 1.5rem;
+  padding-left: 50px;
+}
+
+.footer .footer-cols {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 0.8rem;
+  padding-left: 50px;
+}
+
+.footer li {
+    list-style: none;
+    text-decoration: underline;
+  line-height: 2.3;
+}
+
+h1 {
+  font-size: 3rem;
+}
+.netflix {
+  margin-top: 10px;
+}
+.footer p a{
+    color:#aaa;
+}
